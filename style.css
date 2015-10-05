@@ -1,0 +1,30 @@
+
+
+div.column {
+  width:33%;
+  float:left;
+}
+div.clearfix {
+  float:both;
+}
+h1, em {
+  text-align:center;
+}
+em i {
+  font-style:normal;
+}
+p.sub {
+  text-align:center;
+}
+div p {
+  width:50%;
+  margin:0;
+}
+div.center {
+  text-align:center;
+  margin-bottom:1em;
+}
+li {
+  text-align:center;
+  list-style:none;
+}
