@@ -793,7 +793,6 @@ $('button#load').click(function(e) {
 });
 
 function loadGame(name) {
-  var url = 'https://ipfs.io/ipfs/QmYgTz4w72hicHLhf9C8woXTEbt8uWv1ApYxfDNYUkZaNS/';
-  //url = 'http://localhost/roms/';
+  var url = location.origin + location.pathname + 'roms/';
   Javatari.room.romLoader.loadFromURL(url+name);
 }
